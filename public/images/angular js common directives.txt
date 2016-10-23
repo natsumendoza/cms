@@ -1,0 +1,12 @@
+html --> ng-app="myApp" --> JS --> var myApp = angular.module("myApp", ['dependencies']);
+html --> ng-controller="mainController" --> JS --> myApp.controller("mainController", ['$scope',...dependencies], $scope, ...dependencies, function(){});
+
+ng-class="{'classname': 'condition'}, ...."
+ng-if="condition"
+ng-show="condition"
+ng-hide="condition"
+
+ng-repeat="var in list"
+
+ng-click="function()"
+ng-cloak
